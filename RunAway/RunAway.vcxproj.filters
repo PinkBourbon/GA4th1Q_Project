@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{0a202a84-cf4f-4fd9-b6f2-1ab13f2b2685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Camera">
+      <UniqueIdentifier>{b27e50b3-cdcb-4195-b9a0-0e4561b68b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{00b49307-881b-4557-9fd2-5506e39ad627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utill">
+      <UniqueIdentifier>{d2027bfa-5cf8-4197-afd7-a2a035568d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a3e256e3-d235-4c4e-add4-8479e09c0295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{bc6c79de-b642-4c78-877b-fac959a432be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu">
+      <UniqueIdentifier>{95027ff3-9efc-4852-851e-67c8f96d5017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu\GameObject">
+      <UniqueIdentifier>{3e9c4f6a-9245-407e-98da-dcdeb2c1a086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Credit">
+      <UniqueIdentifier>{bf163fdf-d8fd-404e-bc51-e34c76ea01a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Credit\GameObject">
+      <UniqueIdentifier>{7c38ac65-ef3e-4145-be70-9a926e4305e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameClear">
+      <UniqueIdentifier>{66489c15-6c44-4905-8e54-26ef37443039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameClear\GameObject">
+      <UniqueIdentifier>{197c5925-5cf8-4886-a965-7aad3964b0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOver">
+      <UniqueIdentifier>{9eae9770-9523-46ea-a28d-c55b079d692a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOver\GameObject">
+      <UniqueIdentifier>{1733ed5c-a90e-4485-9606-ea67552438e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay">
+      <UniqueIdentifier>{87392657-2d66-4853-9393-1ec494023ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\HowToPlay">
+      <UniqueIdentifier>{decab179-5925-49b4-af9e-3a0e39825138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject">
+      <UniqueIdentifier>{e7372b0e-d3fb-4bd9-8064-4c08302b821d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\HowToPlay\GameObject">
+      <UniqueIdentifier>{e82732a8-b69b-497c-90f9-665b5b6e67d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneMgr">
+      <UniqueIdentifier>{157ff6f2-99c4-4b5d-81cb-229b03a6ff8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneMgr\GameObject">
+      <UniqueIdentifier>{051095a6-1dda-47a5-8941-9181ad175f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\Monster">
+      <UniqueIdentifier>{ac88bf70-62df-47e6-b31a-d63b4e4bbb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\MonsterMgr">
+      <UniqueIdentifier>{245d07fa-446c-4aa4-ae33-a78f9a447b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\Player">
+      <UniqueIdentifier>{7db845e2-cd14-43b6-aa83-b220cdffbfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\WorldMap">
+      <UniqueIdentifier>{9ef032f5-8edd-4020-8c25-8a140f75abf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\PopUpMenu">
+      <UniqueIdentifier>{f4c934ed-c9a8-4b03-aec1-9e16bf1ee6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\Menu">
+      <UniqueIdentifier>{2e4d7c40-7f82-4dac-9891-62819b564433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\Box">
+      <UniqueIdentifier>{0f4eb709-fb23-4fc3-9f73-c88e0f5383c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CutScene">
+      <UniqueIdentifier>{16f56e6f-ac06-4393-a8d6-012f1c0c00c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CutScene\GameObject">
+      <UniqueIdentifier>{d644ef2c-19c2-4dbc-8301-70d4f0f2e815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\StoryItem">
+      <UniqueIdentifier>{bfd42419-2b7b-4b57-b81f-8e41495180d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GamePlay\GameObject\PassiveItem">
+      <UniqueIdentifier>{725b0da7-edf5-4854-ae7e-3c3ba7f48a04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RunAway.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Scene\GamePlay\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Scene\GamePlay\GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMgr.h">
+      <Filter>Scene\GamePlay\GameObject\MonsterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Scene\GamePlay\GameObject\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMapData.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="OutOfBody.h">
+      <Filter>Scene\GamePlay\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMainMenu.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCredit.h">
+      <Filter>Scene\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameClear.h">
+      <Filter>Scene\GameClear</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGamePlay.h">
+      <Filter>Scene\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHowToPlay.h">
+      <Filter>Scene\HowToPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Scene\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWallPaper.h">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMainMenuToGameStart.h">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMainMenuToHowToPlay.h">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMainMenuToCredit.h">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMainMenuToExitGame.h">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditWallPaper.h">
+      <Filter>Scene\Credit\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlayWallPaper.h">
+      <Filter>Scene\HowToPlay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpMenu.h">
+      <Filter>Scene\GamePlay\GameObject\PopUpMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverWallPaper.h">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGameOverToMainMenu.h">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGameOverToRestart.h">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearWallPaper.h">
+      <Filter>Scene\GameClear\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Scene\GamePlay\GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Scene\GamePlay\GameObject\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGamePlayToMainMenu.h">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGamePlayToRestart.h">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGamePlayToExitGame.h">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuWallPaper.h">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Memo.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCutScene.h">
+      <Filter>Scene\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CutSceneWallPaper.h">
+      <Filter>Scene\CutScene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem0.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem1.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem2.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem3.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem4.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem5.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem6.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem7.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem8.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryItem9.h">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScissorsItem.h">
+      <Filter>Scene\GamePlay\GameObject\PassiveItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>Scene\GamePlay\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.c">
+      <Filter>Scene\GamePlay\GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMgr.c">
+      <Filter>Scene\GamePlay\GameObject\MonsterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.c">
+      <Filter>GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMap.c">
+      <Filter>Scene\GamePlay\GameObject\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.c">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMapData.c">
+      <Filter>Utill</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OutOfBody.c">
+      <Filter>Scene\GamePlay\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMainMenu.c">
+      <Filter>Scene\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCredit.c">
+      <Filter>Scene\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameClear.c">
+      <Filter>Scene\GameClear</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.c">
+      <Filter>Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGamePlay.c">
+      <Filter>Scene\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHowToPlay.c">
+      <Filter>Scene\HowToPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.c">
+      <Filter>Scene\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWallPaper.c">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMainMenuToGameStart.c">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMainMenuToHowToPlay.c">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMainMenuToCredit.c">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMainMenuToExitGame.c">
+      <Filter>Scene\MainMenu\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditWallPaper.c">
+      <Filter>Scene\Credit\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlayWallPaper.c">
+      <Filter>Scene\HowToPlay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpMenu.c">
+      <Filter>Scene\GamePlay\GameObject\PopUpMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverWallPaper.c">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGameOverToMainMenu.c">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGameOverToRestart.c">
+      <Filter>Scene\GameOver\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearWallPaper.c">
+      <Filter>Scene\GameClear\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.c">
+      <Filter>Scene\GamePlay\GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.c">
+      <Filter>Scene\GamePlay\GameObject\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGamePlayToMainMenu.c">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGamePlayToRestart.c">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGamePlayToExitGame.c">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuWallPaper.c">
+      <Filter>Scene\GamePlay\GameObject\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Memo.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCutScene.c">
+      <Filter>Scene\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CutSceneWallPaper.c">
+      <Filter>Scene\CutScene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem0.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem1.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem2.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem3.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem4.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem5.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem6.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem7.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem8.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryItem9.c">
+      <Filter>Scene\GamePlay\GameObject\StoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScissorsItem.c">
+      <Filter>Scene\GamePlay\GameObject\PassiveItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RunAway.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="RunAway.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

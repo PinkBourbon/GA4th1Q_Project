@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{aa3b4323-f8bd-4719-8396-2f7cf6aa482d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Struct">
+      <UniqueIdentifier>{b89539fd-8340-49ea-b581-d48dc7c17316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e35b13f1-22f5-4d51-a60f-55668e1530df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Struct">
+      <UniqueIdentifier>{bdb14f40-4cc7-4d3d-ad04-7911997f5ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{9676b52f-2b82-4919-99fd-d15a53155145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{1dbd6cf1-20b3-455d-afb3-437af8ffe767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{521a9114-91ec-47aa-9469-e747578ee84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e997e731-c6a5-4edb-8b89-e162c0a0c2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{1b69de52-58fd-47d7-ba0b-a7567d804374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{bac0b8e7-c5d6-47bc-82a7-a1eeb031cb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Struct">
+      <UniqueIdentifier>{277797bb-c489-47bd-b4f6-a1abc7bc37ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{75df9d89-8d5d-4d89-bc03-4f69191b55c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RAEngine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RAGameObject.h">
+      <Filter>Engine\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RAVector2.h">
+      <Filter>Math\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RAMatrix2.h">
+      <Filter>Math\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RAVector3.h">
+      <Filter>Math\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RAMatrix3.h">
+      <Filter>Math\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RATimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="RAAlphaBlend.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RARGB.h">
+      <Filter>Renderer\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RARanderInterface.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RABmpParser.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RAGameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RAInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="RABitMapPrint.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RARenderCore.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RASingleList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RAAnimation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RAImage.h">
+      <Filter>Renderer\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="RAMacro.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RAType.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RASound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="RACamera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RAEngine.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RAGameObject.c">
+      <Filter>Engine\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RAVector2.c">
+      <Filter>Math\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RAMatrix2.c">
+      <Filter>Math\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RAVector3.c">
+      <Filter>Math\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RAMatrix3.c">
+      <Filter>Math\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RATimer.c">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="RAAlphaBlend.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RARanderInterface.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RABmpParser.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RAGameEngine.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RAInput.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="RABitMapPrint.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RARenderCore.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RASingleList.c">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RAAnimation.c">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RAImage.c">
+      <Filter>Renderer\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="RASound.c">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="RACamera.c">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
